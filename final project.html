@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final Project</title>
+    <link rel="stylesheet" href="video.css">
+    <style>
+        .one{
+            font-family: monospace;
+            color: chartreuse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body bgcolor="#f542a4">
+    <div>
+        <video autoplay muted loop id="video1">
+            <source src="20870767.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+    <h1 class="one">ABSTRACT</h1>
+    <h3 ><font color="darkgrey">Image compression gains prominence in picture archiving and communication systems for storage 
+        and transmission of data. The advancements in technology enable the usage of computer assisted algorithms 
+        for disease diagnosis and therapeutic planning. In this research work, a prediction based compression 
+        algorithm was proposed to compress DICOM images. The local adaptive block based predictor compression 
+        technique utilizes neighbourhood pixel gray values for prediction and the Huffman coder was employed for 
+        the encoding of predicted coefficients. The compression results were considered effective, in contrast with 
+        the 
+        JPEG lossless, Kernel Least Mean Square, Context Adaptive Block-Based Prediction, and Least Mean square 
+        Prediction approaches. The performance validation by metrics reveals the effectiveness of the proposed local 
+        adaptive block prediction-based approach.  
+        JPEG lossy image compression is a still image compression algorithm model that is currently widely 
+        used in major network media. However, it is unsatisfactory in the quality of compressed images at low bit 
+        rates. The objective of this paper is to improve the quality of compressed images and suppress blocking 
+        artifacts by improving the JPEG image compression model at low bit rates. First, the image texture adaptive 
+        non-uniform rectangular partition (ITANRP) algorithm is proposed which partitions the image into 8 × 8 size 
+        image blocks with high texture complexity and 16 × 16 size image blocks with low texture complexity. Then, 
+        a new transform coding based on the complete orthogonal U-system and all-phase digital filter (APDF) is 
+        proposed for coding image blocks with different sizes. Next, a flexible adaptive quantization scheme is 
+        designed to quantize image blocks with different sizes by considering the sensitivity of the human visual 
+        system (HVS) to different texture complexities. Finally, combining the above method with the JPEG model, 
+        a novel image compression algorithm model with low algorithm complexity is proposed to solve the problem 
+        in JPEG. 
+        The experimental results demonstrate that the performance of our algorithm model outperforms the JPEG 
+        image compression algorithms, the quality of the compressed image is greatly improved, and the blocking 
+        artifacts are also significantly suppressed. 
+    </font></h3>
+    <h1 class="one">CONCLUSION</h1>
+    <h3><font color="darkgrey">Using prediction-based prediction algorithms, the current work presents algorithmic strategies 
+        for reducing the size of medical DICOM images. Local adaptive block-based prediction outperforms 
+        other approaches such as JPEG lossless, legendary polynomial-based image compression, 
+        contextbased adaptive prediction, least square-based, and kernel least mean square-based prediction 
+        techniques. The hardware implementation of the local adaptive block-based prediction technique using 
+        Raspberry Pi B+ embedded processor makes it applicable for IoT-based telemedicine applications for 
+        data transfer through the cloud network. The future work will focus on the compression of medical 
+        videos for transfer through a cloud network. Security aspects will also be considered through a medical 
+        image encryption algorithm. We propose a novel algorithm model (APUBT3-NUP) to compress the 
+        still image. In our model, ITANRP is used to classify and partition image blocks according to the 
+        texture complexity and obtain non-uniform image blocks. In the experimental part, the 
+        feasibility and effectiveness of the ITANRP algorithm are demonstrated, and the better compression 
+        performance of APUBT3 is verified by comparing with other transformations. The results show that 
+        the compression performance of APUBT3 is better than other transforms in the case of low bit rate. 
+        Extensive experiments and compression performance analysis show that our algorithm model can well 
+        solve the problems of JPEG at low bit rate, which improves the quality of reconstructed images and 
+        significantly suppresses blocking artifacts. At low bit rate, the compression performance of the 
+        proposed algorithm model is similar to JPEG2000 and WebP, but because the proposed algorithm 
+        model inherits the transform coding and entropy coding of JPEG, its advantage lies in its lower 
+        algorithm complexity. In the future, we will focus on the fast algorithm and parallel computing 
+        technology of APUBT3-NUP to optimize the algorithm execution time. In addition, since H.265/HECV 
+        uses DCT as the transform core, we will further explore the performance changes of applying APUBT3 
+        to H.265/HECV.<font></h3>
+    </div>
+</body>
+</html>
